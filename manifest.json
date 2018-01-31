@@ -7,7 +7,7 @@
   "content_scripts": [
     {
       "matches": ["http://www.globo.com/*"],
-      "js": ["remove_shit.js"]
+      "js": ["remove_entertainment.js"]
     }
   ]
 }
