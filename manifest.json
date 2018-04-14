@@ -3,10 +3,10 @@
 
   "name": "Remover Conteúdo GShow da Globo",
   "description": "Remove todo conteúdo do GShow da página inicial da globo, incluindo Big Brother, novelas, noticias sobre celebridades, entre outros",
-  "version": "1.0",
+  "version": "1.1",
   "content_scripts": [
     {
-      "matches": ["http://www.globo.com/*"],
+      "matches": ["https://www.globo.com/*"],
       "js": ["remove_entertainment.js"]
     }
   ]
