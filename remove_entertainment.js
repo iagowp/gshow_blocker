@@ -1,4 +1,4 @@
-var elements = document.querySelectorAll('.hui-color-entertainment');
+var elements = document.querySelectorAll('[data-tracking-action="entretenimento"]')
 elements.forEach((element) => {
   element.parentElement.removeChild(element);
 });
