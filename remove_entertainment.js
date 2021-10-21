@@ -1,5 +1,7 @@
 var elements = document.querySelectorAll('[data-tracking-action="entretenimento"]')
-elements.forEach((element) => {
+var mainPosts = document.querySelectorAll('.theme-entretenimento')
+var allPosts = mainPosts.concat(elements);
+allPosts.forEach((element) => {
   element.parentElement.removeChild(element);
 });
 
